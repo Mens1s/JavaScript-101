@@ -1,7 +1,5 @@
 let fullname = prompt("Enter name:")
 
-
-
 let title = document.querySelector("#title")
 
 fullname = `${fullname[0].toUpperCase()}${fullname.slice(1).toLowerCase()}`;
