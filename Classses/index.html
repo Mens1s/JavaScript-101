@@ -7,22 +7,42 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <h1>Mens1s - Note System</h1>
+    <div id="alert">
 
+    </div>
     <div class="container">
         <div class="row">
             <div class="col-sm-8 offset-sm-2">
                 <div class="lead" id="pre"></div>
                 <form id="userform">
-                    <input type="number" name="score" id="score">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Kullanci Adi</label>
+                        <input type="text" name="username" id="username" class="form-control">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="score" class="form-label">Not</label>
+                        <input type="number" name="username" id="not" class="form-control">
+                    </div>
+
                     <button type="reset" class="btn btn-danger">Reset</button>
-                    <button type="submit" class="btn btn-success">Send</button>
+                    <button type="submit" class="btn btn-success ">Send</button>
+
                 </form>
+                <div class="col-sm-8 offset-1">
+                    <ul  class="list-group" id="userList">
+                        
+                    </ul>
+                </div>
+                <ul  class="list-group" id="proList">
+                        
+                </ul>
             </div>
         </div>
     </div>
 
-    <script src="js/15-arrays.js"></script>
+    <script src="js/17-loop_methods.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
   </body>
 </html>
